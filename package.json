@@ -1,0 +1,29 @@
+{
+  "name": "super-simple-monitor",
+  "version": "1.0.0",
+  "description": "A super simple monitor for your server",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sespinosa/super-simple-monitor.git"
+  },
+  "keywords": [
+    "monitor",
+    "nodejs",
+    "logs"
+  ],
+  "author": "Sebastián Espinosa <sespinosar@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sespinosa/super-simple-monitor/issues"
+  },
+  "homepage": "https://github.com/sespinosa/super-simple-monitor#readme",
+  "dependencies": {
+    "request": "^2.70.0",
+    "vitalsigns": "^0.4.3"
+  },
+  "engine": "node >= 5.0.0"
+}
